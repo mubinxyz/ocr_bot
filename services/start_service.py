@@ -2,14 +2,13 @@
 
 from models.user import get_or_create_user
 
-# Tracks which users are expected to send files
-# Key: chat_id, Value: True if awaiting file
-awaiting_file = {}
+# Set of chat_ids waiting for a file
+_awaiting_file = set()
 
 
 def init_user(chat_id, username=None, first_name=None, last_name=None):
     """
-    Ensure user exists in DB and set awaiting_file state to False.
+    Ensure user exists in DB and reset awaiting state for this user.
     """
     user = get_or_create_user(
         chat_id=chat_id,
@@ -17,26 +16,20 @@ def init_user(chat_id, username=None, first_name=None, last_name=None):
         first_name=first_name,
         last_name=last_name
     )
-    awaiting_file[chat_id] = False
+    _awaiting_file.discard(chat_id)
     return user
 
 
 def set_awaiting_file(chat_id):
-    """
-    Mark that the bot is now waiting for a file from this user.
-    """
-    awaiting_file[chat_id] = True
+    """Mark that the bot is now waiting for a file from this user."""
+    _awaiting_file.add(chat_id)
 
 
-def reset_awaiting_file(chat_id):
-    """
-    Reset the file waiting state for the user.
-    """
-    awaiting_file[chat_id] = False
+def clear_awaiting_file(chat_id):
+    """Clear the file waiting state for the user."""
+    _awaiting_file.discard(chat_id)
 
 
 def is_awaiting_file(chat_id):
-    """
-    Returns True if the user is expected to send a file.
-    """
-    return awaiting_file.get(chat_id, False)
+    """Return True if the user is expected to send a file."""
+    return chat_id in _awaiting_file

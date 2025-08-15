@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
-from services.start_service import init_user, set_awaiting_file
+from services.start_service  import init_user, set_awaiting_file
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     tg_user = update.effective_user or update.message.from_user
