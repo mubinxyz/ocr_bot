@@ -1,0 +1,475 @@
+
+
+--- Page 1 ---
+«mathcentre’
+
+Cubic equations
+
+mc- T Y-cubicequations-2009-1
+
+A cubic equation has the form
+ax? + ba? +cxr +d =0 where a #0
+
+All cubic equations have either one real root, or three real roots. In this unit we explore why this
+iS SO.
+
+Then we look at how cubic equations can be solved by spotting factors and using a method called
+synthetic division. Finally we will see how graphs can help us locate solutions.
+
+In order to master the techniques explained here it is vital that you undertake plenty of practice
+exercises so that they become second nature.
+
+After reading this text, and/or viewing the video tutorial on this topic, you should be able to:
+
+e explain why cubic equations possess either one real root or three real roots
+e use synthetic division to locate roots when one root Is known
+
+e find approximate solutions by drawing a graph
+
+Contents
+1. Introduction
+2. Cubic equations and the nature of their roots
+3. Solving cubic equations 5
+4. Using graphs to solve cubic equations 10
+
+(cc) Ole
+www.mathcentre.ac.uk 1 (© mathcentre 2009 BY NC. ND
+
+
+--- Page 2 ---
+1. Introduction
+
+In this unit we explain what is meant by a cubic equation and how such an equation can be
+solved. The general strategy for solving a cubic equation is to reduce it to a quadratic equation,
+and then solve the quadratic by the usual means, either by factorising or using the formula.
+
+2. Cubic equations and the nature of their roots
+
+A cubic equation has the form
+
+ax® + bx? + cx +d=0
+It must have the term in x? or it would not be cubic (and so a 4 0), but any or all of b, c and d
+can be zero. For instance,
+
+x — 6a? + llx —6 =0, 4x® + 57 = 0, zr +9r =0
+
+are all cubic equations.
+Just as a quadratic equation may have two real roots, so a cubic equation has possibly three.
+But unlike a quadratic equation which may have no real solution, a cubic equation always has at
+least one real root. We will see why this is the case later. If a cubic does have three roots, two
+or even all three of them may be repeated. This gives us four possibilities which are illustrated
+in the following examples.
+Example
+Suppose we wish to solve the equation
+
+x? — 62? + lle —6=0
+This equation can be factorised to give
+
+(x —1)(a — 2)(a — 3) =0
+This equation has three real roots, all different - the solutions are x = 1, x =2 and x =3.
+
+In Figure 1 we show the graph of y = x? — 6x7 + 1llx — 6.
+
+Y
+
+Figure 1. The graph of y = x® — 62? + 11x — 6.
+Notice that it starts low down on the left, because as x gets large and negative so does x® and
+it finishes higher to the right because as x gets large and positive so does x*. The curve crosses
+the x-axis three times, once where x = 1, once where x = 2 and once where x = 3. This gives
+us our three separate solutions.
+
+www.mathcentre.ac.uk 2 (© mathcentre 2009 os)
+
+
+--- Page 3 ---
+Example
+Suppose we wish to solve the equation x? — 547+ 8a —4=0.
+
+This equation can be factorised to give
+(x — 1)(x — 2)? =0
+
+In this case we do have three real roots but two of them are the same because of the term (x—2)?.
+So we only have two distinct solutions. Figure 2 shows a graph of y = 2° — 5x47 + 8x — 4.
+
+Figure 2. The graph of y = 2° — 5a? + 82 — 4.
+Again the curve starts low to the left and goes high to the right. It crosses the x-axis once and
+then just touches it at x = 2. So we have our two roots x = 1 and x = 2.
+Example
+Suppose we wish to solve the equation x? — 327+ 3a —1=0.
+This equation can be factorised to give
+(x -—1)?=0
+
+So although there are three factors, they are all the same and we only have a single solution
+x = 1. The corresponding curve is y = x? — 3x? + 3x — 1 and is shown in Figure 3.
+
+Figure 3. The graph of y = 2? — 327 + 32 — 1.
+
+www.mathcentre.ac.uk 3 (© mathcentre 2009 COS
+
+
+--- Page 4 ---
+As with all the cubics we have seen so far, it starts low down on the left and goes high up to
+the right. Notice that the curve does cross the x-axis at the point x = 1 but the x-axis Is also
+a tangent to the curve at this point. This is indicative of the fact that there are three repeated
+
+roots.
+
+Example
+
+Suppose we wish to solve the equation x? 4+ 2? +2 —3=0.
+
+This equation can be factorised to give
+
+(x — 1)(a* + 22 +3) =0
+
+The quadratic x? + 27 + 3 = 0 has no real solutions, so the only solution to the cubic equation
+is obtained by putting x — 1 = 0, giving the single real solution x = 1.
+
+The graph y = x° + x? + x — 3 is shown in Figure 4.
+
+Figure 4. The graph of y= a? +2742 —3.
+
+You can see that the graph crosses the x-axis in one place only.
+
+From these graphs you can see why a cubic equation always has at least one real root. The
+graph either starts large and negative and finishes large and positive (when the coefficient of x?
+is positive), or it will start large and positive and finish off large and negative (when the coefficient
+
+3
+
+of x” is negative).
+
+The graph of a cubic must cross the x-axis at least once giving you at least one real root. So,
+any problem you get that involves solving a cubic equation will have a real solution.
+
+Exercise 1
+
+Determine the real roots of the following cubic equations - if a root is repeated say how many
+
+times.
+a) (a+1)(~—2)(~a-—3)=0  b)
+d) (a+ 2)(2?+6r+10)=0 e)
+
+www.mathcentre.ac.uk
+
+(24
+
+F 1)(x? — 122 +20) =0 c)
+
+(24
+
++ 2)(x? ++ 7x +10) =0
+
+f)
+
+(2 — 3)?(1 + 4) =0
+(x — 5)(x? — 10x + 25) =0
+
+4 (© mathcentre 2009 COSE
+
+
+--- Page 5 ---
+3. Solving cubic equations
+Now let us move on to the solution of cubic equations. Like a quadratic, a cubic should always
+be re-arranged into its standard form, in this case
+
+ax? + ba? +cx +d=0
+
+The equation
+
+6
+ar +4¢—-1=—
+x
+
+is a cubic, though it is not written in the standard form. We need to multiply through by z,
+giving us
+xv +4e? —x =6
+
+and then we subtract 6 from both sides, giving us
+x? +427 x -6=0
+This is now in the standard form
+
+When solving cubics it helps if you know one root to start with.
+Example
+
+Suppose we wish to solve
+x? — 5a”? — 2 +24=0
+
+given that x = —2 is a solution.
+
+There is a theorem called the Factor Theorem which we do not prove here. It states that If
+x = —2 \Is a solution of this equation, then x+ 2 is a factor of this whole expression. This means
+that 2? — 5a? — 2x + 24 = 0 can be written in the form
+
+(x + 2)(x* + ax +b) =0
+
+where a and 6 are numbers.
+
+Our task now Is to find a and b, and we do this by a process called synthetic division. This
+involves looking at the coefficients of the original cubic equation, which are 1, —5, —2 and 24.
+These are written down in the first row of a table, the starting layout for which is
+
+1 -—5 -—2 24|x=-2
+
+Notice that to the right of the vertical line we write down the known root « = —2. We have
+left a blank line which will be filled in shortly. In the first position on the bottom row we have
+brought down the number 1 from the first row.
+
+The next step is to multiply the number 1, just brought down, by the known root, —2, and write
+the result, —2, In the blank row in the position shown.
+
+www.mathcentre.ac.uk 5 (© mathcentre 2009 os)
+
+
+--- Page 6 ---
+The numbers in the second column are then added, —5 + —2 = —7, and the result written in the
+bottom row as shown.
+
+Then, the number just written down, —7, Is multiplied by the known root, —2, and we write the
+result, 14, In the blank row in the position shown.
+
+1 -5 -—2 24/x4=-2
+
+Then the numbers in this column are added:
+
+1 -5 -—2 24|)x=-2
+—2 14
+
+1 —7 12
+
+The process continues:
+
+1 —-5 —2 24) x=-2
+—2 14 —24
+
+1 —7 12 0
+
+Note that the final number in the bottom row (obtained by adding 24 and —24) is zero. This is
+confirmation that « = —2 Is a root of the original cubic. If this value turns out to be non-zero
+then we do not have a root.
+
+At this stage the coefficients in the quadratic that we are looking for are the first three numbers
+in the bottom row. So the quadratic is
+
+x? —Tx +12
+So we have reduced our cubic to
+(x +2)(2? —7r+12) = 0
+The quadratic term can be factorised to give
+(x +2)(a4—3)(a-—4) = 0
+giving us the solutions 7 = —2, 3 or 4
+
+In the previous Example we were given one of the roots. If a root is not known it’s always worth
+trying a few simple values.
+
+www.mathcentre.ac.uk 6 (© mathcentre 2009 COS
+
+
+--- Page 7 ---
+Example
+
+Suppose we wish to solve
+x? —7Tr-6=0
+
+A very simple value we might try is x = 1. Substituting x = 1 in the left-hand side we find
+1° — 7(1) -6
+which equals —12, so this value is clearly not a solution. Suppose we try the value x = —1:
+(—1)* — 7(-1) -6
+
+which does equal zero, so x = —1 is a solution. This means that x+ 1 is a factor and the cubic
+can be written in the form
+
+(x +1)(x* +ax +b) =0
+We can perform synthetic division to find the other factors.
+
+As before, we take the coefficients of the original cubic equation, which are 1, 0, —7 and —6.
+These are written down in the first row of a table, the starting layout for which is
+
+1 0 -—7 -6/x=-1l
+
+To the right of the vertical line we write down the known root « = —1. In the first position on
+the bottom row we have brought down the number 1 from the first row.
+
+The next step is to multiply the number 1, just brought down, by the known root, —1, and write
+the result, —1, in the blank row in the position shown.
+
+1 0 -7 -6|}x=-1
+
+The numbers in the second column are then added, 0 + —1 = —1, and the result written in the
+bottom row as shown.
+
+Then, the number just written down, —1, Is multiplied by the known root, —1, and we write the
+result, 1, in the blank row in the position shown.
+
+1 0 -—7 -6|a2=-1
+—l 1
+
+1 -1
+Then the numbers in this column are added:
+
+1 0 -7 -6|}x=-1
+
+www.mathcentre.ac.uk 7 (© mathcentre 2009 os)
+
+
+--- Page 8 ---
+The process continues:
+
+At this stage the coefficients in the quadratic that we are looking for are the first three numbers
+in the bottom row. So the quadratic is
+
+x —x—6
+So we now need to solve the equation
+(x + 1)(2? -2 -6) =0
+
+which factorises to give
+(x + 1)(a — 3)(a + 2) =0
+
+and the three solutions to the cubic equation are x = —2, —1 or 3.
+
+Sometimes you may be able to spot a factor as shown in the following Example.
+Example
+Suppose we wish to solve the equation x? — 4x? — 9x + 36 = 0.
+
+Observe that the first two terms in the cubic can be factorised as x? — 4x = x?(x — 4). The
+second pair of terms can be factorised as —9x + 36 = —9(x — 4). This sort of observation can
+only be made when you have had sufficient practice and experience of handling expressions like
+this. However, the observation enables us to proceed as follows:
+
+xv? —4e? -—97 +36 =
+
+0
+x(x —4)—-9(x—-4) = 0
+
+The common factor of (a — 4) can be extracted to give
+(x? —9)(a — 4) —0
+
+and the difference of two squares can be factorised giving
+
+(x + 3)(a — 3)(a — 4) =0 (1)
+giving us solutions z = —3, 3 or 4
+You may have noticed that in each example we have done, every root is a factor of the constant
+term in the equation. In the last Example, —3, 3 and 4 all divide into the constant term 36. As
+long as the coefficient of x* in the cubic equation is 1 this must be the case. This is because,
+
+referring to equation (1) for example, the constant term arises from multiplying the numbers 3,
+—3 and —4. This gives us another possible approach.
+
+www.mathcentre.ac.uk 8 (© mathcentre 2009 COS
+
+
+--- Page 9 ---
+Example
+Suppose we wish to solve the equation
+
+x — 62? —6x4 —-7=0
+
+If there is to be a solution, then because the coefficient of x? is 1, it is going to be an integer
+
+and it’s going to be a factor of 7. This leaves us with only four possibilities: 1,—1,7, and —7.
+So we can try each of them in turn. You can see fairly quickly that 1 and —1 don’t work. So
+we will try 7. Rather than substitute « = 7 into the cubic equation we shall immediately try to
+synthetically divide this expression by 7.
+
+1 -6 -6 -7|x=7
+
+Because the fourth number in the last row is zero it follows that « = 7 is indeed a root. Had
+this number not been zero then x = 7 would not have been a root. So 7 is indeed a root, and
+the resulting quadratic is
+
+et+rt+1=0
+
+Now you will find that if you try to solve it that the quadratic equation x? + x + 1 = 0 has no
+real solutions, so the only possible solution to this cubic is x = 7.
+
+Certain basic identities which you may wish to learn can help in factorising both cubic and
+quadratic equations.
+
+Example
+Suppose we wanted to solve the equation 2° + 327+ 34 +1=0.
+
+This has the widely-known factorisation (x + 1)? = 0 from which we have the root x = —1
+repeated three times.
+
+Exercise 2
+
+1. For each of the following cubic equations one root Is given. Determine the other roots of
+each cubic.
+
+a) 2° + 3x7 — 62 — 8 = 0 has a root at x = 2.
+
+b) 2° + 2x? — 217 + 18 = 0 has a root at x =3.
+
+c) a + 42? + 77 +6 =0 has a root at x = —2.
+
+d) 2x? + 9x? + 3a — 4 =0 has a root at x = —4.
+
+2. For each of the following cubic equations use synthetic division to determine if the given
+value of x is a root of the equation. Where It is, determine the other roots of the equation.
+
+a) Is x = —2 a root of the equation x? + 9x? + 26x + 24 = 0?
+
+www.mathcentre.ac.uk 9 (© mathcentre 2009 COS
+
+
+--- Page 10 ---
+b) Is z =4 a root of the equation 2° — 627 + 97 + 1=0?
+c) Is f = —1 a root of the equation x? + 6x? + 3x — 5 = 0?
+
+d) Is x =2 a root of the equation x? + 2x? — 20x + 24 = 0?
+
+4. Using graphs to solve cubic equations
+
+If you cannot find a solution by these methods then draw an accurate graph of the cubic expres-
+sion. The points where it crosses the x-axis will give you the solutions to the equation but their
+accuracy will be limited to the accuracy of your graph.
+
+You may indeed find that the graph crosses the x-axis at a point that would suggest a factor,
+
+for instance, if you draw a graph that appears to cross the x-axis at, say, 7 = 3 then it’s worth
+trying to find out whether (: — 5) is indeed a factor.
+
+Example
+Suppose we wished to solve x? + 42? +2 —5=0.
+
+Now this equation will not yield a factor by any of the methods that we have discussed. So a
+graph of y = x® + 4x7 + x — 5 has been drawn as shown in Figure 5.
+
+Figure 5. A graph of y = 2° + 4a? +2 —5
+
+It crosses the x-axis at three places and hence there are three real roots. As we stated before their
+accuracy will be limited to the accuracy of the graph. From the graph we find the approximate
+solutions « ¥ —3.2, —1.7,0.9.
+
+Exercise 3
+Use graphs to solve, as accurately as you can, the following cubic equations.
+a) a — 4x? — 67 +5 =0
+
+b) 2x3 — 327 — 4x — 35 = 0
+
+c) # —327-xr+1=0
+
+www.mathcentre.ac.uk 10 (© mathcentre 2009 os)
+
+
+--- Page 11 ---
+Answers
+
+Exercise 1
+a) -1,2,3  b)-—1, 2,10 c) —4, 3 (twice)
+d) —2. e) —5, —2 (twice) f) 5 (three times)
+
+Exercise 2
+
+1. a)x=-landx=-4 b)x=-6andr=1
+c) No other roots d) a= -—1andx=0.5
+
+2. a) x = —2 is a root. Other roots are x = —3 and x = —4
+b) 2 = 4 Is not a root
+c) x = —1 Is not a root
+d) x =2 is a root. Other roots are x = —6 and x = 2
+Exercise 3
+
+All answers are correct to 2 significant figures.
+a) —1.6, 0.62, 5 b) 3.5, no other real roots c) —0.68, 0.46, 3.2
+
+www.mathcentre.ac.uk 11 (© mathcentre 2009 os)
